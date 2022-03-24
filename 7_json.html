@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id = "myp1"></p>
+</body>
+    <script>
+        const obj1 = {name: "shivam" , age:"22"};
+        const myvar = JSON.stringify(obj1);
+        document.getElementById('myp1').innerHTML = obj1.age;
+        console.log(myvar);
+    </script>
+
+</html>

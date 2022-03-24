@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<p> my answer</p>
+<p id = "myp1"></p>
+</body>
+<script>
+    // const myvar = {firstname: "shivam" , lastname: "mishra", age,
+    // set myage(userage){
+    //     this.age = userage;
+    // },
+    
+    // get fullname(){
+    //     let var_fullname = myvar.firstname +" "+ myvar.lastname;
+    //     return var_fullname;
+    // };
+    // myvar.age = 22;
+    // myage(20);
+    function myvar(fname , lname , userage){
+        this.firstname = fname;
+        this.lastname = lname;
+        this.age = userage;
+
+    }
+    const myvar1 = new myvar("shivam " , "mishra" , "22");
+    const myvar2 = new myvar("sonali" , "mishra" , "30")
+
+    document.getElementById('myp1').innerHTML = myvar2.age;    
+</script>
+</html>

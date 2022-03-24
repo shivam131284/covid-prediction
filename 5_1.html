@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p my id = "myp1"></p>
+</body>
+<script>
+    class myclass123 {
+        constructor(name, age){
+            this.name = name;
+            this.age = age
+        }
+        myname(){
+            let myusername = this.name;
+            return myusername;
+        }
+    }
+    class noname123 extends myclass123{
+        constructor(name,age,haircolor){
+            super(name,age)
+            this.haircolor = haircolor;
+        }
+    }
+    // const student1 = new myclass123("shivam" , "22");
+    const student1 = new noname123("shivam" , "22","black");
+    document.getElementById('myp1').innerHTML = student1.haircolor; 
+</script>
+</html>

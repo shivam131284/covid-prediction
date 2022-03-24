@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+</body>
+<script>
+    // function countdown(number){
+    //     console.log(number);
+    //     let newnumber = number + 1;
+    //     if(newnumber<10){
+            
+    //         countdown(newnumber); 
+    //     }
+
+    // }
+    // countdown(1)
+    // function addmyarray(arr , n){
+    //     if(n<=0){
+    //         return 0;
+    //     }
+    //     else
+    //     {
+    //         return addmyarray(arr , n-1)+arr[n-1]
+    //     }
+    //     return sum;
+    // }
+    // let myarr = [12 ,13 ,14 ,15];
+    // let myvar = addmyarray(myarr ,4);
+    // console.log(myvar);
+
+    function mulmyarray(arr , n){
+        if(n<=0){
+            return 1;
+        }
+        else
+        {
+            return mulmyarray(arr , n-1)*arr[n-1]
+        }
+        return mul;
+    }
+    let myarr = [12 ,13 ,14 ,15];
+    let myvar = mulmyarray(myarr ,4);
+    console.log(myvar);
+    
+
+</script>
+</html>

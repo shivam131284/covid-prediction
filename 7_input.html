@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type ="number" name="username1" id="myinput1" placeholder="write a number">
+    <input type ="number" name="username1" id="myinput2" placeholder="write b number">
+    <button type="button" onclick = "userinput()">Submit</button>
+    <p id="myp1"></p>
+</body>
+<script>
+    function userinput(){
+        let mynum1 = document.getElementById("myinput1").value;
+        let mynum2 = document.getElementById("myinput2").value;
+        let mysum  = mynum1 + nynum2;
+        document.getElementById('myp1').innerHTML = "Sum is  :" +mysum;
+        }
+</script>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>My answer</p>
+    <p id = "myp1"></p>
+</body>
+<script> 
+    // var myinput = window.prompt("enter your name :")
+    // var a = window.prompt('enter first number :');
+    // var b = window.prompt('enter second number :');
+    // var mysum = a+b;
+    // document.getElementById('myp1').innerHTML = mysum;
+    //  document.getElementById('myp1').innerHTML = myvar.firstname +" "+ myvar.lastname + " "
+    // + myvar.age;
+    // myvar.rollNumber = 64;
+    // let myvar = myvar1;
+    // console.log(myvar1)
+    let myvar = {firstname: "shivam" , lastname: "mishra", age:"22" , fullname : function(){
+        return this.firstname +" " + this.lastname
+    }}
+//     cars: {
+
+//         car1 : "maruti",
+//         car2 : "toyota", 
+//         car3 : "Bmw"
+//     }
+// };
+// let mysentence = myvar.fullname();
+// document.getElementById('myp1').innerHTML = mysentence.fontcolor("red");
+// const myarray = Object.values (myvar);
+// let mystring123 = JSON.stringify(myvar); //(way to convert object into string.)
+// console.log(mystring123);  
+//   console.log(myarray[1]); //(way to convert object into array and access that).
+// console.log(mystring123);
+// document.getElementById('myp1').innerHTML = myvar.todaysDate; // doesn't work.
+const myarray = [1,2,3,4,5];
+// let mystring123 = myarray;
+let mystring123 = JSON.stringify(myarray);
+console.log(mystring123);
+
+</script>
+</html>
